@@ -1,0 +1,234 @@
+.slick-list {
+  overflow: hidden;
+}
+
+.slick-track {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.certificate_slider .slick-slide {
+  margin: 0px 20px;
+}
+
+.certificate_slider .slick-arrow {
+  position: absolute;
+  top: 50%;
+  -webkit-transform: translate(0, -50%);
+      -ms-transform: translate(0, -50%);
+          transform: translate(0, -50%);
+  z-index: 5;
+  font-size: 0;
+  width: 50px;
+  height: 50px;
+  border: none;
+  cursor: pointer;
+}
+@media only screen and (max-width: 600px) {
+  .certificate_slider .slick-arrow {
+    width: 36px;
+    height: 36px;
+    background: #FFFFFF;
+    border: 1px solid rgba(16, 61, 130, 0.5);
+  }
+}
+
+.certificate_slider .slick-arrow.slick-prev {
+  left: -50px;
+  background: url("../img/015.svg") center no-repeat;
+}
+@media only screen and (max-width: 1320px) {
+  .certificate_slider .slick-arrow.slick-prev {
+    left: 0px;
+  }
+}
+
+.certificate_slider .slick-arrow.slick-next {
+  right: -50px;
+  background: url("../img/014.svg") center no-repeat;
+}
+@media only screen and (max-width: 1320px) {
+  .certificate_slider .slick-arrow.slick-next {
+    right: 0px;
+  }
+}
+
+.certificate_slider {
+  position: relative;
+}
+@media only screen and (max-width: 1320px) {
+  .certificate_slider {
+    padding: 0px 50px;
+  }
+}
+@media only screen and (max-width: 600px) {
+  .certificate_slider {
+    padding: 0px 30px;
+  }
+}
+
+.certificate_slider_item {
+  text-align: center;
+  overflow: hidden;
+}
+.certificate_slider_item img {
+  width: 100%;
+}
+
+.certificate_slider .slick-dots {
+  position: absolute;
+  left: 50%;
+  -webkit-transform: translate(-50%, 0);
+      -ms-transform: translate(-50%, 0);
+          transform: translate(-50%, 0);
+  bottom: -30px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.certificate_slider .slick-dots li {
+  list-style: none;
+  margin: 0px 10px;
+}
+
+.certificate_slider .slick-dots li button {
+  font-size: 0;
+  width: 8px;
+  height: 8px;
+  border: 2px solid #FC361D;
+  border-radius: 50%;
+  background-color: transparent;
+}
+
+.certificate_slider .slick-dots li.slick-active button {
+  background: #FC361D;
+  width: 10px;
+  height: 10px;
+}
+
+.rate_slider .slick-slide {
+  margin: 0px 20px;
+}
+
+.rate_slider .slick-arrow {
+  position: absolute;
+  top: 50%;
+  -webkit-transform: translate(0, -50%);
+      -ms-transform: translate(0, -50%);
+          transform: translate(0, -50%);
+  z-index: 5;
+  font-size: 0;
+  width: 50px;
+  height: 50px;
+  border: none;
+  cursor: pointer;
+}
+@media only screen and (max-width: 600px) {
+  .rate_slider .slick-arrow {
+    width: 36px;
+    height: 36px;
+    background: #FFFFFF;
+    border: 1px solid rgba(16, 61, 130, 0.5);
+  }
+}
+
+.rate_slider .slick-arrow.slick-prev {
+  left: -50px;
+  background: url("../img/015.svg") center no-repeat;
+}
+@media only screen and (max-width: 1320px) {
+  .rate_slider .slick-arrow.slick-prev {
+    left: 0px;
+  }
+}
+
+.rate_slider .slick-arrow.slick-next {
+  right: -50px;
+  background: url("../img/014.svg") center no-repeat;
+}
+@media only screen and (max-width: 1320px) {
+  .rate_slider .slick-arrow.slick-next {
+    right: 0px;
+  }
+}
+
+.rate_slider {
+  position: relative;
+}
+@media only screen and (max-width: 1320px) {
+  .rate_slider {
+    padding: 0px 50px;
+  }
+}
+@media only screen and (max-width: 600px) {
+  .rate_slider {
+    padding: 0px 30px;
+  }
+}
+
+.certificate_slider_item {
+  text-align: center;
+  overflow: hidden;
+}
+.certificate_slider_item img {
+  width: 100%;
+}
+
+.rate_slider_item {
+  display: block;
+  text-align: center;
+  overflow: hidden;
+  border: 1px solid #FC361D;
+}
+.rate_slider_item img {
+  width: 100%;
+}
+
+.rate_slider .slick-dots {
+  position: absolute;
+  left: 50%;
+  -webkit-transform: translate(-50%, 0);
+      -ms-transform: translate(-50%, 0);
+          transform: translate(-50%, 0);
+  bottom: -30px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.rate_slider .slick-dots li {
+  list-style: none;
+  margin: 0px 10px;
+}
+
+.rate_slider .slick-dots li button {
+  font-size: 0;
+  width: 8px;
+  height: 8px;
+  border: 2px solid #FC361D;
+  border-radius: 50%;
+  background-color: transparent;
+}
+
+.rate_slider .slick-dots li.slick-active button {
+  background: #FC361D;
+  width: 10px;
+  height: 10px;
+}
